@@ -1,0 +1,19 @@
+<view class="container">
+    <view class='header'>
+        <view class='rank'>排名</view>
+        <view class='team'>战队</view>
+        <view class='money'>收入</view>
+        <view class='glod'>积分</view>
+    </view>
+    <view class='team_list'>
+        <view class='single' wx:for="{{teams}}" wx:key='team'>
+            <view>{{item.rank}}</view>
+            <view>
+                <image src='{{item.guidon}}' mode='aspectFit'></image>
+                {{item.teamName}}
+            </view>
+            <view>${{item.income}}</view>
+            <view>{{item.integral}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+<view class='container'>
+    <view class='hero_wrap'>
+        <view class='tiele'>
+            <image src='../../img/str.png' mode='aspectFit'></image>
+            力量 
+        </view>
+        <view class='hero str' wx:for="{{str}}" wx:key="hero">
+            <image src="{{item.img}}" mode="widthFix"></image>  
+            <text>{{item.hero}}</text>
+        </view>
+    </view>
+
+    <view class='hero_wrap'>
+        <view class='tiele'>
+            <image src='../../img/agi.png' mode='aspectFit'></image>
+            敏捷
+        </view>
+        <view class='hero agi' wx:for="{{agi}}" wx:key="hero">
+            <image src="{{item.img}}" mode="widthFix"></image>  
+            <text>{{item.hero}}</text>
+        </view>
+    </view>
+
+    <view class='hero_wrap'>
+        <view class='tiele'>
+            <image src='../../img/int.png' mode='aspectFit'></image>
+            智力 
+        </view>
+        <view class='hero int' wx:for="{{int}}" wx:key="hero">
+            <image src="{{item.img}}" mode="widthFix"></image>  
+            <text>{{item.hero}}</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+/**app.wxss**/
+.container {
+  height: auto;
+  width: 100%;
+} 
+view,image {
+    box-sizing: border-box;
+}

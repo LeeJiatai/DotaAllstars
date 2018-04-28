@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/match/match",
+    "pages/rank/rank"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#15181d",
+    "navigationBarTitleText": "DotaAllstars",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+      "color": "#7d8085",
+      "selectedColor": "#3d444a",
+      "position": "bottom",
+      "list":[
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "img/home.png",
+                "selectedIconPath": "img/homes.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/match/match",
+                "iconPath": "img/match.png",
+                "selectedIconPath": "img/matchs.png",
+                "text": "赛事"
+            },
+            {
+                "pagePath": "pages/rank/rank",
+                "iconPath": "img/rank.png",
+                "selectedIconPath": "img/ranks.png",
+                "text": "排名"
+            }
+        ]
+  }
+}

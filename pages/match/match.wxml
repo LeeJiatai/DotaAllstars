@@ -1,0 +1,7 @@
+<view class="container">
+    <view class='match_wrap'>
+        <view class='single'>
+            <image src='../../img/epicenter_xl.jpg' mode=''></image>
+        </view>
+    </view>
+</view>

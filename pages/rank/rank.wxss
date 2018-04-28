@@ -1,0 +1,60 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    height: 70rpx;
+    width: 100%;
+    border-bottom: 1px solid #dedfe0;
+}
+.header view {
+    height: 100%;
+    float: left;
+    color: #888888;
+    font-size: 30rpx;
+    line-height: 70rpx;
+    text-align: center;
+}
+.header view:nth-of-type(1){
+    width: 15%;
+}
+.header view:nth-of-type(2),.header view:nth-of-type(3) {
+    width: 30%;
+}
+.header view:nth-of-type(4){
+    width: 25%;
+}
+.team_list {
+    height: auto;
+    width: 100%;
+}
+.single {
+    height: 80rpx;
+    width: 100%;
+    border-bottom: 1px dashed #dedfe0;
+}
+.single view {
+    height: 100%;
+    float: left;
+    color: #888888;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    text-align: center;
+}
+.single view:nth-of-type(1){
+    width: 15%;
+}
+.single view:nth-of-type(2) image {
+    width: 56rpx;
+    height: 56rpx;
+    vertical-align: top;
+    margin-top: 12rpx;
+    float: left;
+    margin-left: 20rpx;
+}
+.single view:nth-of-type(2),.single view:nth-of-type(3) {
+    width: 30%;
+}
+.single view:nth-of-type(4){
+    width: 25%;
+}
